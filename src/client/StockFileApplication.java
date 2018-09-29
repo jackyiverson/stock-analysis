@@ -42,17 +42,8 @@ public class StockFileApplication {
 				oneRow.put(headers.get(j),Double.valueOf(day[j]));
 			}
 			dataResult.add(oneRow);
-//			oneRow=null;
 		}
 
-//		for(int i=0;i<lines.size();i++) {
-//			day=lines.get(i).split(",");
-//			for(int j=0;j<day.length;j++) {
-//				System.out.print(day[j] + " ");
-//			}
-//			System.out.println();
-//		}
-		
 		return dataResult;
 	}
 	

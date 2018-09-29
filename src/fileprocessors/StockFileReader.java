@@ -44,7 +44,6 @@ public class StockFileReader {
 			// ignore first headLine
 			line=br.readLine();
 			while(line!=null) {
-//				System.out.println(line);
 				lines.add(line);
 				line=br.readLine();
 			}
